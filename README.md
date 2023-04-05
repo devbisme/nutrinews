@@ -1,11 +1,11 @@
-#nutrinews
+# nutrinews
 
 [![latest PyPi version](https://img.shields.io/pypi/v/nutrinews.svg)](https://pypi.python.org/pypi/nutrinews)
 
 Use OpenAI's GPT to make news more nutritious by removing bias.
 Based on an [idea from Alexandros Marinos](https://twitter.com/alexandrosM/status/1643291421582176256).
 
-##Usage
+## Usage
 
 ```
 usage: nutrinews [-h] [-m {3.5,4}] [-p PROMPT] [--url URL] [-f FILE] [-c] [-d DIFF]
@@ -24,20 +24,20 @@ options:
   -d DIFF, --diff DIFF  Specify tool to diff the original and nutritious text.
 ```
 
-##Installation
+## Installation
 
 ```bash
 pip install nutrinews
 ```
 
-###Requirements
+### Requirements
 
 Python 3 and associated libraries.
 
-##License
+## License
 
 MIT license.
 
-##Authors
+## Authors
 
 `nutrinews` was written by [`Dave Vandenbout <devb@xess.com>`](mailto:devb@xess.com).
